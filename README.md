@@ -1,4 +1,10 @@
-# 🚀 Proyecto Full Stack con GraphQL (React + Apollo + Node.js + SQLite + TheCatAPI)
+# Taller con GraphQL (React + Apollo + Node.js + SQLite + TheCatAPI)
+## Integrantes
+Integrantes:
+
+    Juan Andrés Gómez
+    Daniel Santiago Ramirez Chinchilla
+    Santiago Navarro Cuy
 
 Este proyecto implementa una arquitectura **Frontend-Backend** usando **GraphQL** para realizar consultas dinámicas a:
 
