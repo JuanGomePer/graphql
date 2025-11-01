@@ -39,7 +39,11 @@ const resolvers = {
 const PORT = process.env.PORT || 4000;
 
 async function start() {
-  const server = new ApolloServer({ typeDefs, resolvers });
+  const server = new ApolloServer({
+    typeDefs,
+    resolvers,
+    persistedQueries: false, // opcional: desactiva advertencia de cache no limitado
+  });
   await server.listen({ port: PORT, host: "0.0.0.0" });
   console.log(`GraphQL API lista en http://0.0.0.0:${PORT}`);
 }
